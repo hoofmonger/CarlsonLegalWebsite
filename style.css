@@ -105,7 +105,6 @@ to {opacity: 1;}}
 
 .header{
     display: flex;
-    position: fixed;
     background-color: moccasin;
     
 }
@@ -123,6 +122,13 @@ a{
     animation-iteration-count: calc(1);
 }
 
-.aboutMeText{
-    background-image:'DSC_0335.JPG' ;
+.aboutMeText{ 
+    background-image: url('./pictures/DSC_0335.JPG');
+    background-size: contain;
+    display: flex;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: right;
+    font-size: 1.8em;
+    margin: 25px;
 }
